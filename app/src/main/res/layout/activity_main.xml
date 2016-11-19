@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context=".MainActivity">
+    <com.imajinno.tanya.ap9.ImageDrawing
+        android:id="@+id/drawing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_image"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:layout_weight="92"/>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp">
+        <ImageButton
+            android:id="@+id/take_pencil"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/pencil2"
+            android:onClick="setBrush"
+            android:contentDescription="Take your pencil"/>
+
+        <ImageButton
+        android:background="@drawable/pensil_width"
+        android:contentDescription="Choose size of brush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/size_button"
+       />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/color_button"
+        android:background="@drawable/color_image"
+        android:contentDescription="Choose color of brush"
+        android:onClick="ChooseColor"/>
+    <ImageButton
+        android:id="@+id/erase_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/eraser_image"
+        android:contentDescription="Take eraser"
+        android:onClick="SetEraser"/>
+    <ImageButton
+        android:id="@+id/save_painting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/save_image"
+        android:contentDescription="Save your image"
+        android:onClick="Save"/>
+     <ImageButton
+         android:id="@+id/fb_post"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/fb"
+         android:contentDescription="Share on Facebook"
+         android:onClick="Share"
+         />
+        </LinearLayout>
+</LinearLayout>

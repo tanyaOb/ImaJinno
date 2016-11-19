@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ap9</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_alpha">Alpha</string>
+    <string name="label_red">Red</string>
+    <string name="label_green">Green</string>
+    <string name="label_blue">Blue</string>
+    <string name="button_set_color">Color</string>
+    <string name="set_eraser_size">Eraser size</string>
+    <string name="new_size_eraser">Set size</string>
+    <string name="text_erase_size">Text erase</string>
+    <string name="admob_interstitial_id">ca-app-pub-YOUR_ID</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
